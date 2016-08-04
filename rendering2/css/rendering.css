@@ -1,0 +1,26 @@
+/**
+ *	Rendering页样式 
+ *	18/05/2016
+ *	
+ */
+#renderingFall ul{
+	width: 100%;
+	position: relative;
+	list-style: none;
+}
+#renderingFall ul li {
+	width: 25%;
+	box-sizing: border-box;
+	border: 5px solid white;
+	box-shadow: 0 0 5px #ccc;
+	float: left;
+	position: absolute;
+}
+#renderingFall ul li img {
+	width: 100%;
+}
+@media only screen and (min-width: 100px) and (max-width: 570px) {
+	#renderingFall ul li {
+		width: 50%;
+	}
+}

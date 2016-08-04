@@ -1,0 +1,101 @@
+/**
+ *	Home页样式 
+ *	18/05/2016
+ *	
+ */
+html {
+	font-size: 16px;
+}
+@media only screen and (min-width: 590px) {
+	
+
+#main {
+	width: 980px;
+	margin: 0px auto;
+	
+}
+#main section {
+	border-bottom: 1px solid #ccc;
+	height: 159px;
+	width: 100%;
+	clear: both;
+	color: #b4b4b4;
+	overflow: hidden;
+	cursor: pointer;
+}
+#main section:nth-child(2) {
+	height: 175px;
+	text-align: right;
+}
+.left {
+	width: 588px;
+	float: left;
+}
+.middle {
+	width: 19px;
+	height: 100%;
+	background: #b0b0b0;
+	float: left;
+}
+.right {
+	float: left;
+	width: 373px;
+}
+.right h3 {
+	font-size: 1.6rem;
+	line-height: 60px;
+	font-family: arial;
+}
+.right p {
+	/*text-align: left;*/
+	line-height: 1.5rem;
+	font-size: 1rem;
+}
+.right-wrap {
+	margin-left: 16px;
+}
+.right-wrap>p {
+	text-align: left;
+}
+.right-wrap2 {
+	padding-right: 19px;
+}
+.right-wrap2>p {
+	text-align: right;
+}
+#left2 {
+	float: right;
+}
+#right2 {
+	float: left;
+}
+#middle2 {
+	float: right;
+}
+}
+@media only screen and (min-width: 100px) and (max-width: 590px) {
+	#main {
+		width: 100%;
+	}
+	#main section {
+		width: 100%;
+		height: auto;
+		border-bottom: 1px solid #ccc;
+	}
+	#main section img {
+		width: 100%;
+	}
+	.right h3 {
+		font-size: 1.2rem;
+		text-align: center;
+		line-height: 60px;
+		font-family: arial;
+	}
+	.right p {
+		line-height: 1.2rem;
+		font-size: 0.8rem;
+		text-align: left;
+		margin-left: 10px;
+	}
+	
+}

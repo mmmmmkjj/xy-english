@@ -1,0 +1,103 @@
+/**
+ *	导航样式 
+ *	18/05/2016
+ *	
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	height: 67px;
+	background: #1b1b1b;
+}
+header>nav {
+	width: 1119px;
+	margin: 0 auto;
+}
+header>nav>img {
+	margin-top: 18px;
+}
+header>nav>ul {
+	float: right;
+	list-style: none;
+	height: 100%;
+	font-size: 15px;
+	font-family: arial;
+}
+header>nav>ul>li {
+	float: left;
+	padding: 6px 11px;
+	margin-left: 27px;
+	margin-top: 18px;
+	border: 1px solid #1b1b1b;
+	box-sizing: border-box;
+}
+header>nav>ul>li:hover {
+	color: white;
+	border: 1px solid #8d8d8d;
+	border-radius: 8px;
+}
+header>nav>ul>li>a {
+	text-decoration: none;
+	color: #8d8d8d;
+}
+header nav ul li:hover a{
+	color: white;
+}
+#menu1,#menu2 {
+	float: right;
+	display: none;
+}
+@media screen and (max-width: 1119px) {
+	header>nav {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 615px) and (max-width: 830px) {
+	header>nav>ul {
+		display: none;
+	}
+	#menu1 {
+		margin-right: 30px;
+		display: block;
+	}
+}
+@media only screen and (min-width: 100px) and (max-width: 615px) {
+	header>nav>ul {
+		display: none;
+	}
+	#menu2 {
+		display: block;
+		margin-top: 2px;
+		margin-right: 35px;
+	}
+	header {
+		height: 50px;
+	}
+	#logo {
+		margin-top: 8px;
+		margin-left: 10px;
+		width: 140px;
+	}
+}
+#selectNav {
+	width: 100px;
+	position: absolute;
+	display: none;
+	z-index: 99;
+}
+#selectNav>section {
+	height: 30px;
+	border: 1px solid #ccc;
+	background: #caf51f;
+	line-height: 30px;
+	text-align: center;
+}
+#selectNav>section>a {
+	text-decoration: none;
+	font-size: 14px;
+	font-family: arial;
+	color: black;
+}

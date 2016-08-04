@@ -1,0 +1,64 @@
+/**
+ *	About页样式 
+ *	18/05/2016
+ *	
+ */
+* {margin: 0;padding: 0;}
+#mainAbout {
+	width: 100%;
+	overflow: hidden;
+	background: #e3e3e3;
+}
+#mainAbout>#middleAbout {
+	margin: 0 auto;
+	margin-top: 60px;
+	width: 980px;
+	background: url(../img/bg.png);
+	height: 594px;
+	background-repeat: no-repeat;
+}
+#mainAbout>#middleAbout>#info {
+	top: 15px;
+	width: 490px;
+	left: 0;
+}
+#mainAbout>#middleAbout>#info h3{
+	line-height: 70px;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: normal;
+}
+#mainAbout>#middleAbout>#info p {
+	text-align: left;
+	line-height: 34px;
+	font-size: 16px;
+	font-family: arial;
+	margin-bottom: 20px;
+	word-break: break-word;
+	/*强制不换行*/
+	/*white-space:nowrap;*/			
+}
+#mainAbout>#middleAbout ul {
+	width: 100%;
+	margin-top: 35px;
+	list-style: none;
+}
+#mainAbout>#middleAbout ul>li {
+	float: left;
+	margin-right: 40px;
+}
+@media screen and (max-width: 980px) {
+	#mainAbout>#middleAbout {
+		width: 100%;
+		height: auto;
+	}
+	#mainAbout>#middleAbout ul>li{
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (min-width: 100px) and (max-width: 490px) {
+	#mainAbout>#middleAbout>#info {
+		width: 100%;
+		left: 0;
+	}
+}

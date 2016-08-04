@@ -1,0 +1,32 @@
+/**
+ *	Rendering页样式 
+ *	18/05/2016
+ *	
+ */
+@-webkit-keyframes zoomAnimate{
+	from{
+		width: 0;
+		left: 50%;
+		top: 50%;
+		
+	}
+	to{
+		top: 20%;
+		left: 20%;
+		width: 60%;
+	}
+}
+#renderingFall ul{
+	list-style: none;
+	float: left;
+	width: 25%;
+}
+#renderingFall ul li {
+	box-sizing: border-box;
+	border: 5px solid white;
+	box-shadow: 0 0 5px #ccc;
+	float: left;
+}
+#renderingFall ul li img {
+	width: 100%;
+}

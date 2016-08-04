@@ -1,0 +1,78 @@
+/**
+ *	3DAnimate页样式 
+ *	19/05/2016
+ *	
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 16px;
+}
+#animateTopWrap {
+	width: 100%;
+	background: #1b191a;
+}
+#animateTopMain {
+	width: 1119px;
+	height: 632px;
+	margin: 0 auto;
+	position: relative;
+}
+#animateTopBig {
+	width: 100%;
+}
+#animateStop {
+	width: 50px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -25px;
+	margin-left: -25px;
+}
+#animateBottomWrap {
+	width: 1119px;
+	margin: 0 auto;
+}
+#animateBottomWrap>ul {
+	width: 100%;
+	text-align: center;
+	list-style: none;
+	overflow: hidden;
+}
+#animateBottomWrap>ul>li {
+	position: relative;
+	/*float: left;*/
+	display: inline-block;
+	width: 30%;
+	/*height: 238px;*/
+	padding: 5px;
+}
+#animateBottomWrap>ul>li>p {
+	font-size: 1rem;
+	color: #919699;
+	line-height: 25px;
+}
+.animateBig {
+	width: 100%;
+}
+.playSmall {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -20px;
+	margin-left: -10px;
+}
+@media screen and (max-width: 1119px) {
+	#animateTopMain {width: 100%;height: auto;}
+	#animateBottomWrap {width: 100%;}
+	#animateBottomWrap>ul>li>p {
+		font-size: 0.8rem;
+	}
+}
+@media only screen and (max-width: 690px) {
+	#animateBottomWrap>ul>li {
+		width: 45%;
+	}
+}

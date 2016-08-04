@@ -1,0 +1,28 @@
+/**
+ *	页脚样式 
+ *	18/05/2016
+ *	
+ */
+footer {
+	width: 100%;
+	padding-top: 30px;
+}
+footer>div,p {
+	width: 100%;
+	padding: 3px;
+	text-align: center;
+}
+footer img {
+	padding: 3px;
+	cursor: pointer;
+}
+footer p {
+	font-size: 11px;
+	color: #666666;
+	line-height: 50px;
+}
+@media only screen and (max-width: 590px) {
+	footer {
+		padding-top: 45px;
+	}
+}

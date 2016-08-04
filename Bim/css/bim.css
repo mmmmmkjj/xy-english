@@ -1,0 +1,253 @@
+/**
+ *	Bim页样式
+ *	19/05/2016
+ *	
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+#bimMiddelContent{
+    width: 100%;
+    background: #e5e5e5;
+    position: relative;
+    font-size: 13px;
+}
+.sectionWrap{
+	width: 100%;
+}
+.sectionWrap>img{
+	width: 100%;
+}
+.Section{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.Section>img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+.sectionMiddle{
+	position: relative;
+	max-width: 1119px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.sectionMiddle h3{
+	color: #616161;
+	display: inline-block;
+	line-height: 150%;
+	font-size: 20px;
+}
+.sectionMiddle h2{
+	color: #616161;
+	display: inline-block;
+	border: 1px solid #616161;
+	line-height: 105%;
+	font-size: 20px;
+	border-radius: 6px;
+	margin-right: 5px;
+	width: 27px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+}
+.sectionMiddle span{
+	display: block;
+	width: 338px;
+	line-height: 25px;
+	margin: 15px 0 30px;
+	word-break: break-word;
+}
+.Section{
+	position: relative;
+}
+.secCon1{
+	padding-top: 150px;
+}
+.secCon1 div{
+	width: 40%;
+	overflow: hidden;
+}
+.secCon1 div img{
+	width: 33%;
+	float: left;
+}
+.secCon2{
+	padding-top: 135px;
+}
+.secCon2 div{
+	width: 50%;
+	overflow: hidden;
+}
+.secCon2 div img{
+	width: 47%;
+	margin-right: 6px;
+}
+.secCon3{
+	padding-top: 190px;
+	padding-left: 400px;
+}
+.secCon3 span{
+	width: 370px;   
+}
+.secCon3 div img{
+	width: 45%;
+	margin-right: 6px;
+	min-width: 200px;
+}
+.secCon4{
+	padding-top: 100px;
+	position: absolute;
+	right: 200px;
+}
+.secCon4 span{
+	width: 100%;
+}
+.secCon4 div{
+	max-width: 280px;
+}
+.secCon4 div img{
+	width: 100%;
+	margin-bottom:6px;
+}
+.secCon5{
+	padding-top: 100px;
+}
+.building1-half-t{
+	width: 350px;
+	position: absolute;
+	right: -50px;
+	bottom: 0;
+}
+.building1-half-b{
+	width: 350px;
+	position: absolute;
+	right: -5px;
+	top: 0;
+}
+.building2-half-t{
+	width: 400px;
+	position: absolute;
+	left: -125px;
+	bottom: 0;
+}
+.building2-half-b{
+	width: 400px;
+	position: absolute;
+	left: -125px;
+	top: 0;
+}
+.building3-half-t{
+	width: 400px;
+	position: absolute;
+	right: -100px;
+	bottom: 0;
+}
+.secCon4{
+	width: 380px;
+}
+.building3-half-b{
+	width: 400px;
+	position: absolute;
+	right: -43px;
+	top: 0;
+}
+@media screen and (max-width: 639px) {
+	.sectionMiddle div h3{
+		font-size:14px;
+		line-height: 20px;
+	}
+	.sectionMiddle span{
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.sectionMiddle{
+		width: 98%;
+	}
+	.secCon1 div,.secCon2 div{
+		width: 70%;
+	}
+	.secCon1 span,.secCon2 span{
+		width: 75%;
+	}
+	.secCon3 span{
+		width: 94%;
+	}
+	.secCon4{
+		padding-left: 0;
+	}
+}
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	.secCon1 {
+	    padding-top: 100px; 
+	    padding-bottom: 0;
+	}
+	.secCon1 div {
+		width: 50%;
+	    margin-left: 2%;
+	    padding-top: 20px;
+	}
+	.secCon1 span{
+		width: 55%;
+	}
+	.secCon2 {
+	    padding: 45px 0;
+	}
+	.secCon3 {
+		padding-top: 70px;
+	    padding-left: 150px;
+	}
+	.secCon3 div img{
+		width: 45%;
+		min-width: 150px;
+	}
+	.secCon4 {
+	    padding-top: 55px;
+		right: 95px;
+	    z-index: 100;
+	    width: 204px;
+	}
+	.secCon4 div img {
+		width: 90%;
+	}
+	.sectionMiddle {
+	    min-height: 350px;
+	}
+	.sectionMiddle span {
+	    margin: 20px 0;
+	}
+	.sectionMiddle span {
+		width: 200px;
+	}
+	.building1-half-t{
+		width: 280px;
+	}
+	.building1-half-b{
+		width: 280px;
+		right: -15px;
+	}
+	.building2-half-t{
+		width: 280px;
+	}
+	.building2-half-b{
+		width: 280px;
+		left: -125px;
+		opacity: 0.5;
+	}
+	.building3-half-t{
+		width: 290px;
+	}
+	.building3-half-b{
+		width: 290px;
+		right: -59px;
+		opacity: 0.5;
+	}
+	.Section{
+		max-height: 500px;
+	}
+}
